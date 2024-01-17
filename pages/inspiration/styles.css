@@ -3,6 +3,7 @@
 main {
   padding-inline: 20% 5%;
   align-items: flex-start;
+  padding-block-start: 8rem;
 }
 
 video {

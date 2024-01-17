@@ -117,6 +117,10 @@ header {
   max-width: 95%;
   margin-inline: auto;
   padding-block: 2.5rem;
+  position: fixed;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 header svg {
@@ -185,6 +189,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-block-start: 6rem;
 }
 
 .grid-container {
