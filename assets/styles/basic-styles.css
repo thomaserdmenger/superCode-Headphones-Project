@@ -42,6 +42,7 @@ img {
 }
 
 .wrapper {
+  min-height: 100vh;
   background-color: var(--clr-background);
 }
 
@@ -58,4 +59,38 @@ a {
 .links-nav {
   color: var(--clr-nav-links);
   font-size: 1rem;
+}
+
+.links-aside {
+  color: var(--clr-white);
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: LucidaRegular;
+  opacity: 0.8;
+}
+
+/* ! Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 95%;
+  margin-inline: auto;
+  padding-block: 2.5rem;
+}
+
+header svg {
+  height: 40px;
+  width: 40px;
+}
+
+header nav {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+header nav div {
+  display: flex;
+  gap: 1rem;
 }
