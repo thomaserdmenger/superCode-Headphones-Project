@@ -25,6 +25,7 @@
   --font-workSans: Worksans;
   --font-lucidaReg: LucidaRegular;
   --font-lucidaBold: LucidaBold;
+  --transition-links: 0.5s;
 }
 
 * {
@@ -85,12 +86,27 @@ a {
   font-size: 1rem;
 }
 
+.links-nav a,
+.links-aside a {
+  transition: var(--transition-links);
+}
+
+.links-nav a:hover {
+  text-decoration: underline;
+  color: var(--clr-white);
+}
+
 .links-aside {
   color: var(--clr-white);
   font-size: 1rem;
   text-transform: uppercase;
   font-family: LucidaRegular;
-  opacity: 0.8;
+  opacity: 0.6;
+}
+
+.links-aside nav div a:hover {
+  opacity: 1;
+  text-shadow: 0 0 10px var(--clr-white);
 }
 
 /* ! Header */
