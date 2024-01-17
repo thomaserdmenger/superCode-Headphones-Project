@@ -2,11 +2,6 @@ main {
   padding-block-start: 0;
 }
 
-.grid-container-subpages div:nth-of-type(1) {
-  background: url(../../assets/images/section-voyager.jpg) no-repeat center;
-  background-size: cover;
-}
-
 .grid-container-subpages div:nth-of-type(2) {
   background-color: var(--clr-background);
   padding-block: 12rem 4rem;
