@@ -43,7 +43,7 @@ img {
 }
 
 .wrapper {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   background-color: var(--clr-background);
 }
 
@@ -184,6 +184,14 @@ aside nav div:last-of-type {
 }
 
 /* ! Main */
+
+.grid-container-subpages {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  min-height: 100vh;
+}
+
+/* # */
 
 main {
   display: flex;
