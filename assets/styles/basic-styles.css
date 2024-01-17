@@ -1,0 +1,51 @@
+@font-face {
+  font-family: WorkSans;
+  src: url(../fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: LucidaRegular;
+  src: url(../fonts/LucidaGrande.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: LucidaBold;
+  src: url(../fonts/LucidaGrandeBold.ttf);
+  font-weight: 700;
+}
+
+:root {
+  --clr-background: #2e2e2e;
+  --clr-paragraph: #737373;
+  --clr-nav-links: #867772;
+  --clr-rosa: #ebccc2;
+  --clr-white: #ffffff;
+  --clr-black: #2e2e2e;
+  --font-workSans: Worksans;
+  --font-lucidaReg: LucidaRegular;
+  --font-lucidaBold: LucidaBold;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: var(--font-workSans);
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  background-color: var(--clr-background);
+}
+
+h1 {
+  font-size: 3rem;
+  color: var(--clr-rosa);
+}
