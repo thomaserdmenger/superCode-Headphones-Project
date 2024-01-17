@@ -49,3 +49,13 @@ h1 {
   font-size: 3rem;
   color: var(--clr-rosa);
 }
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.links-nav {
+  color: var(--clr-nav-links);
+  font-size: 1rem;
+}
