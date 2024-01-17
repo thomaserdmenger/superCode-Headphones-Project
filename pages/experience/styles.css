@@ -1,1 +1,56 @@
 @import url(../../assets/styles/basic-styles.css);
+
+.wrapper {
+  background: url(../../assets/images/section-experience-1.jpg) no-repeat top;
+  background-size: cover;
+}
+
+header {
+  padding: 0;
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+header svg {
+  width: 60vw;
+  margin-inline-start: 4%;
+  margin-block: 2.5rem;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  min-height: 100vh;
+  background-color: var(--clr-background);
+  padding-block-start: 3rem;
+  padding-inline: 4%;
+}
+
+header nav {
+  align-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 1rem;
+  text-align: right;
+}
+
+header nav div {
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.header-right > div {
+  margin-inline-end: 2.5rem;
+  margin-inline-end: 9%;
+}
+
+.header-right > div h1 {
+  margin-block-start: 7.5rem;
+  margin-block-end: 5.6rem;
+}
+
+.header-right > div p {
+  margin-block-end: 1.3rem;
+}
