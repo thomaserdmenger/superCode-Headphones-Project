@@ -48,15 +48,24 @@ img {
 
 h1 {
   font-size: 3rem;
-  color: var(--clr-rosa);
   font-weight: 400;
 }
 
 h2 {
   font-size: 1.5rem;
-  color: var(--clr-rosa);
   text-transform: uppercase;
   font-weight: 400;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--clr-rosa);
 }
 
 p {
