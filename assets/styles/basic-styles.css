@@ -49,6 +49,7 @@ img {
 h1 {
   font-size: 3rem;
   color: var(--clr-rosa);
+  font-weight: 400;
 }
 
 h2 {
